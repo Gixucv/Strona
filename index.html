@@ -1,7 +1,150 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+	<head>
+	  <meta charset="utf-8" />
+	  <title>Pojazdy III Rzeszy</title>
+	  <link rel="stylesheet" href="strona.css" type="text/css"/>
+	  
+	  <div class="slideshow-container">
+			<div class="mySlides fade">
+			  <img src="https://www.magnum-x.pl/files/artykuly/tw_historia/97_twh_2013_s02/2.jpg" width="100%" height="150px">
+			</div>
+
+			<div class="mySlides fade">
+			  <img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Bundesarchiv_Bild_101I-299-1805-16%2C_Nordfrankreich%2C_Panzer_VI_%28Tiger_I%29.2.jpg" width="100%" height="150px">
+			</div>
+
+			<div class="mySlides fade">
+			  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Metro-maus1.jpg/240px-Metro-maus1.jpg" width="100%" height="150px">
+			</div>
+
+		</div>
+
+		<div style="text-align:center">
+		  <span class="dot"></span> 
+		  <span class="dot"></span> 
+		  <span class="dot"></span> 
+		</div>
+	  
+	  
+	</head>
+	
+	<body>
+	
+		
+	
+	  <div id="cont">
+		<div id="nag">
+			<h1>Pojazdy III Rzeszy</h1>
+		</div>
+		<div id="lewa">
+			<h3>Linki do innych materiałów (i użyte)</h3>
+			<a href="https://www.youtube.com/watch?v=Dw4WgCv9ZGM">Meme</a>
+			<br>
+			<a href="https://www.youtube.com/watch?v=EoeBXoRvpCk">Meme 2</a>
+			<br>
+			<a href="https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna">Wikipedia</a>
+		</div>
+		
+		<div id="glow">
+			<div id="a1">
+				<p>Ala</p>
+			</div>
+			
+			<div id="a2">
+				<h2>Ala</h2>
+			</div>
+			
+			<div id="a3">
+				<p>Ala</p>
+			</div>
+			
+			<div id="a4">
+				<h2>Ala</h2>
+			</div>
+			
+			<div id="a5">
+				<p>Ala</p>
+			</div>
+			
+			<div id="a6">
+				<h2>Ala</h2>
+			</div>
+			
+			<div id="a7">
+				<p>Ala</p>
+			</div>
+			
+			<div id="a8">
+				<h2>Ala</h2>
+			</div>
+			
+			<div id="a9">
+				<p>Ala</p>
+			</div>
+			
+			<div id="a10">
+				<h2>Ala</h2>
+			</div>
+			
+			<div id="a11">
+				<p>Ala</p>
+			</div>
+			
+			<div id="a12">
+				<h2>Ala</h2>
+			</div>
+			
+			<div id="a13">
+				<p>Ala</p>
+			</div>
+			
+			<div id="a14">
+				<h2>Ala</h2>
+			</div>
+			
+			<div id="a15">
+				<p>Ala</p>
+			</div>
+			
+			<div id="a16">
+				<h2>Ala</h2>
+			</div>
+		</div>
+
+		<div id="praw">
+			<div id="zdj">
+				<img src="rek.png" width: 190px;
+				height: 400px;/>
+			 </div>
+		</div>
+		
+		<div id="footer">
+		  <p>Autorzy: Michał Brożyna, Oskar Dudek, Piotr Gruszecki, klasa 2D. Wszelkie prawa zastrzeżone.</p>
+		</div>
+	  </div>
+	  
+	<script>
+		var slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+		  var i;
+		  var slides = document.getElementsByClassName("mySlides");
+		  var dots = document.getElementsByClassName("dot");
+		  for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";  
+		  }
+		  slideIndex++;
+		  if (slideIndex > slides.length) {slideIndex = 1}    
+		  for (i = 0; i < dots.length; i++) {
+			dots[i].className = dots[i].className.replace(" active", "");
+		  }
+		  slides[slideIndex-1].style.display = "block";  
+		  dots[slideIndex-1].className += " active";
+		  setTimeout(showSlides, 2000); // Change image every 2 seconds
+		}
+	</script>
+	  
+	</body>
 </html>

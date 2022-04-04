@@ -2,11 +2,19 @@ p{
 	color: white;
 	font-family: sans-serif;
 }
-
+h5{
+	text-align: center;
+	font-size: 30px;
+}
+h3{
+	font-size: 25px;
+}
 h2{
 	font-family: sans-serif;
 }
-
+h1 { 
+  font-size: 70px; 
+}
 #cont
 {
 	width: 1900px;
@@ -32,14 +40,21 @@ h2{
 	float: left;
 	background-image: linear-gradient(lightgray, gray, lightgray);
 	width: 200px;
-	height: 3820px;
+	height: 4220px;
 	padding: 10px;
+}
+#lewa a
+{
+	color: blue;
+	font-size: 20px;
+	padding: 10px;
+	text-decoration: none;
 }
 #glow
 {
 	float: left;
 	width: 1460px;
-	height: 3840px;
+	height: 4240px;
 }
 #a1
 {
@@ -154,11 +169,45 @@ h2{
 	background-color: gray;
 	margin-bottom: 2px;
 }
+#a20
+{
+	float: left;
+	width: 1420px;
+	padding: 20px;
+	height: 80px;
+	background-color: lightgray;
+}
+#a21
+{
+	float: left;
+	width: 690px;
+	padding: 20px;
+	height: 240px;
+	background-color: lightgray;
+}
+#a22
+{
+	float: left;
+	width: 690px;
+	padding: 20px;
+	height: 240px;
+	background-color: lightgray;
+}
+#a21 p
+{
+	color: black;
+	font-weight: bolder;
+}
+#a22 p
+{
+	color: black;
+	font-weight: bolder;
+}
 #praw
 {
 	float: right;
 	width: 200px;
-	height: 3840px;
+	height: 4240px;
 	padding-left: 20px;
 }
 #footer
